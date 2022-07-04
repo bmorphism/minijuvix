@@ -18,7 +18,7 @@
 ;;;###autoload
 (add-to-list 'auto-mode-alist '("\\.m?juvix\\'" . minijuvix-mode))
 
-(define-derived-mode minijuvix-mode prog-mode "MiniJuvix"
+(define-derived-mode minijuvix-mode prog-mode "MiniJuvix-v0.2.0"
 
   (font-lock-mode 0)
   (when minijuvix-auto-input-method
